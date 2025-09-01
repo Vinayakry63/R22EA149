@@ -1,0 +1,12 @@
+const Log = require(".");
+
+const token = ""; // Replace with your actual tokeneyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJNYXBDbGFpbXMiOnsiYXVkIjoiaHR0cDovLzIwLjI0NC41Ni4xNDQvZXZhbHVhdGlvbi1zZXJ2aWNlIiwiZW1haWwiOiJyeXZpbmF5YWs0MEBnbWFpbC5jb20iLCJleHAiOjE3NTY3MDU0ODMsImlhdCI6MTc1NjcwNDU4MywiaXNzIjoiQWZmb3JkIE1lZGljYWwgVGVjaG5vbG9naWVzIFByaXZhdGUgTGltaXRlZCIsImp0aSI6IjM0MWU5MmJiLTA3MDQtNGZkMC04ODE5LTZjM2I2MDljOWI3NiIsImxvY2FsZSI6ImVuLUlOIiwibmFtZSI6InZpbmF5YWsgciB5YWRhaGFsbGkiLCJzdWIiOiI0MTE0OTAyOC1iNTQzLTRjOGQtOGU1Ny1iYjhjMzg0MDIyZjEifSwiZW1haWwiOiJyeXZpbmF5YWs0MEBnbWFpbC5jb20iLCJuYW1lIjoidmluYXlhayByIHlhZGFoYWxsaSIsInJvbGxObyI6InIyMmVhMTQ5IiwiYWNjZXNzQ29kZSI6Ik5KTUtEVyIsImNsaWVudElEIjoiNDExNDkwMjgtYjU0My00YzhkLThlNTctYmI4YzM4NDAyMmYxIiwiY2xpZW50U2VjcmV0IjoiU1RVeU5SdVNWUE1oZHNaSyJ9.iguh80yTOE23THgOqXcM34x1NEBS6IgNWN-neB-miTc
+
+// Example log call
+Log(
+    "backend",
+    "error",
+    "handler",
+    "received string, expected bool",
+    token
+);
