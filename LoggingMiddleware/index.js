@@ -6,9 +6,9 @@ const register = async () => {
             email: "ryvinayak40@gmail.com",          
             name: "Vinayak R Yadahalli",
             mobileNo: "9019461252",
-            githubusername: "vinayak-r-yadahalli", // Replace with your GitHub username
-            rollNo: "R22EA149",                  // Replace with your roll number // Use your university email
-            accessCode: "NJMKDW"                 // Replace with the access code you received
+            githubusername: "Vinayakry63", 
+            rollNo: "R22EA149",                  
+            accessCode: "NJMKDW"                 
         });
 
         console.log("Registration Successful:", response.data);
